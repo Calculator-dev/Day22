@@ -9,7 +9,7 @@ class Table extends Component {
                 <TableHeader />
                 <TableBody characterData={characterData} />
             </table>
-        )
+        );
     }
 }
 
@@ -21,7 +21,7 @@ const TableHeader = () => {
                 <th>Last name</th>
             </tr>
         </thead>
-    )
+    );
 }
 
 const TableBody = (props) => {
