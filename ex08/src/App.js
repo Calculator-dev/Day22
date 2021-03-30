@@ -22,7 +22,7 @@ class App extends Component {
         <div className="container">
             <Table characterData={characters} />
         </div>
-    )
+    );
 
     }
 }
